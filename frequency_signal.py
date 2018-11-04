@@ -1,7 +1,4 @@
-'''
-Author:Fengzhaoping
-Email: peterfung42@foxmail.com
-'''
+
 import re, sys, os
 import matplotlib.pyplot as plt
 reg = re.compile('(.*)  (.*)')
