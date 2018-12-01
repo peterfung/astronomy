@@ -22,7 +22,7 @@ if len(sys.argv) >= 2 :
         except:
             print('无法打开文件：',file)
             sys.exit()
-        label = os.path.basename(file)
+        label = os.path.basename(file).split('.')[0]
         plt.plot(frequency, signal, label=label)
     xmin, xmax = min(totalf), max(totalf)
     ymin, ymax = min(totals), max(totals)
